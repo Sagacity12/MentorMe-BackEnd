@@ -1,0 +1,57 @@
+{
+  "name": "mentorme-backend",
+  "version": "1.0.0",
+  "description": "Backend mentorship in all js and typescripts ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "start:dev": "ts-node src/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagacity12/MentorMe-BackEnd.git"
+  },
+  "author": "Edward Appiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sagacity12/MentorMe-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Sagacity12/MentorMe-BackEnd#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "bcrypt": "^6.0.0",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "rate-limiter": "^0.2.0",
+    "redis": "^5.1.0",
+    "rollbar": "^2.26.4",
+    "socket.io": "^4.8.1",
+    "winston": "^3.17.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/connect-mongodb-session": "^2.4.8",
+    "@types/connect-redis": "^0.0.23",
+    "@types/express": "^5.0.2",
+    "@types/express-session": "^1.18.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/passport": "^1.0.17",
+    "@types/passport-google-oauth2": "^0.1.10",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
